@@ -1,0 +1,50 @@
+/* Mengatur background navbar menjadi hitam */
+.navbar {
+  background-color: #000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Mengatur gaya teks untuk link di navbar */
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #c0c0c0;
+}
+
+/* Untuk memindahkan teks ke kanan */
+.navbar-right {
+  margin-left: auto;
+  display: flex;
+}
+
+.navbar-right a {
+  margin-right: 20px;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-links li a:hover {
+  text-decoration: underline;
+}

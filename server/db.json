@@ -13,6 +13,17 @@
       },
       "username": "johndoe",
       "password": "hashedPassword123"
+    },
+    {
+      "email": "sosisbanned@gmail.com",
+      "password": "$2a$10$pVMQbMwPjSn3VKjv0Blf5utx9qgxEx6/.wFzDkgwpyHT1Vg423BoO",
+      "name": "satria",
+      "birthDate": {
+        "day": "15",
+        "month": "08",
+        "year": "2007"
+      },
+      "id": 2
     }
   ],
   "categories": [
@@ -25,6 +36,11 @@
       "id": 2,
       "name": "Books",
       "description": "Physical and digital books"
+    },
+    {
+      "name": "tv",
+      "description": "tv1",
+      "id": 3
     }
   ]
 }

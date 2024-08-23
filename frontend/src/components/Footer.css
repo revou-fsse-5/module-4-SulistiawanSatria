@@ -1,0 +1,26 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Mengatur lebar footer menjadi 100% dari layar */
+    padding: 10px 20px; /* Mengatur jarak padding dalam footer */
+    background-color: #f1f1f1; /* Warna latar belakang footer */
+    display: flex;
+    justify-content: space-between; /* Menyebarkan isi footer secara merata */
+    align-items: center;
+    box-sizing: border-box; /* Agar padding dihitung dalam total width */
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #2d86a2;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .footer-icon {
+    margin-right: 5px;
+    font-size: 24px;
+  }
+  
